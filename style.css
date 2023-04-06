@@ -1,0 +1,91 @@
+html {
+    font-family: 'Bitter', serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3d3d3d;
+}
+
+button {
+    background-color: #9fc2ae;
+    border: 1px solid #4b8966;
+    border-radius: 4px;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #92ae9e;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #6abd8e;
+    margin-bottom: 32px;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #4b8966;
+}
+
+.calculator-container {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #6abd8e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.functions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.numbers #nr0 {
+    width: 152px;
+}
+
+.display {
+    width: 400px;
+    height: 100px;
+    margin-top: 16px;
+    border: 1px solid #6abd8e;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    border-top: 1px solid #6abd8e;
+}
