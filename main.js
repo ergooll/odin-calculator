@@ -101,8 +101,6 @@ function calculate() {
         } else {
             previousNum /= currentNum;
         }
-    } else if (operator === '%') {
-        currentNum = currentNum / 100;
     }
     previousNum = roundNumber(previousNum);
     previousNum = previousNum.toString();
