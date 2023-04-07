@@ -148,3 +148,18 @@ button:hover {
     padding: 16px;
     border-top: 1px solid #363636;
 }
+
+.src-code {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.src-code:visited {
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.src-code:hover {
+    color: #505050;
+}
