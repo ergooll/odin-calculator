@@ -144,7 +144,7 @@ function handleKeyPress(e) {
     if (e.key === '*') {
         handleOperator('x');
     }
-    if (e.key === '.') {
+    if (e.key === ',' || e.key === '.') {
         addDecimal();
     }
     if (e.key === 'Backspace') {
@@ -153,4 +153,5 @@ function handleKeyPress(e) {
     if (e.key === 'Delete') {
         clearAll();
     }
+    console.log(e.key);
 }
